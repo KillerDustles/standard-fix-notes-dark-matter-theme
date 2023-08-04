@@ -1,13 +1,13 @@
 {
-		"identifier": "dev.hotfix.maxtaraev.sn-dark-matter-theme",
+    "identifier": "dev.hotfix.maxtaraev.sn-dark-matter-theme",
     "name": "Dark Matter",
     "content_type": "SN|Theme",
     "area": "themes",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A modern dark theme for Standard Notes.",
     "url": "https://github.com/KillerDustles/standard-fix-notes-dark-matter-theme/blob/1.0.2/main.css",
     "download_url": "https://cdn.jsdelivr.net/gh/KillerDustles/standard-fix-notes-dark-matter-theme/archive/refs/tags/1.0.2.zip",
     "marketing_url": "https://github.com/KillerDustles/standard-fix-notes-dark-matter-theme",
     "thumbnail_url": "https://github.com/KillerDustles/standard-fix-notes-dark-matter-theme/blob/main/preview.png",
-		"latest_url": "https://listed.to/p/xkSyo1zxb5"
+    "latest_url": "https://listed.to/p/xkSyo1zxb5"
 }
