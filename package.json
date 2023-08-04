@@ -2,7 +2,7 @@
     "name": "sn-dark-matter-theme",
     "version": "1.0.3",
     "sn": {
-        "main": "main.css"
+        "main": "main.scss"
     },
     "repository": {
         "type": "git",
