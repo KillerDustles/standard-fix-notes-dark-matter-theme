@@ -1,11 +1,11 @@
 {
     "name": "sn-dark-matter-theme",
-    "version": "0.12",
+    "version": "0.13",
     "sn": {
         "main": "main.css"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/KillerDustles/standard-fix-notes-dark-matter-theme"
+        "url": "git://github.com/KillerDustles/standard-fix-notes-dark-matter-theme"
     }
 }
