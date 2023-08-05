@@ -5,7 +5,7 @@
 
 ## Installation
 ---
-**Installation Link**: ``
+**Installation Link**: `https://listed.to/p/khKQ2aqxRA`
 
 1. Open preferences menu
 
