@@ -1,87 +1,39 @@
 :root {
-    --sn-stylekit-base-font-size: 14px;
-
-    --sn-stylekit-font-size-p: 1rem;
-    --sn-stylekit-font-size-editor: 1.21rem;
-
-    --sn-stylekit-font-size-h6: 0.8rem;
-    --sn-stylekit-font-size-h5: 0.9rem;
-    --sn-stylekit-font-size-h4: 1rem;
-    --sn-stylekit-font-size-h3: 1.1rem;
-    --sn-stylekit-font-size-h2: 1.2rem;
-    --sn-stylekit-font-size-h1: 1.3rem;
-
-    --sn-stylekit-neutral-color: #dfdfe8;
-    --sn-stylekit-neutral-contrast-color: #dfdfe8;
-
-    --sn-stylekit-info-color: #5e3b8f;
-    --sn-stylekit-info-color-darkened: #5e3b8f;
-    --sn-stylekit-info-contrast-color: #dfdfe8;
-    --sn-stylekit-info-backdrop-color: #bbbec40f;
-
-    --sn-stylekit-success-color: #2e2e2e;
-    --sn-stylekit-success-contrast-color: #dfdfe8;
-
-    --sn-stylekit-warning-color: #5e3b8f;
-    --sn-stylekit-warning-contrast-color: #dfdfe8;
-
-    --sn-stylekit-danger-color: #cd1538;
-    --sn-stylekit-danger-contrast-color: #dfdfe8;
-
-    --sn-stylekit-shadow-color: #c8c8c8;
-    --sn-stylekit-background-color: #1d1c1c;
-    --sn-stylekit-border-color: #36363600;
-    --sn-stylekit-foreground-color: #dfdfe8;
-
-    --sn-stylekit-contrast-background-color: #1d1c1c;
-    --sn-stylekit-contrast-foreground-color: #dfdfe8;
-    --sn-stylekit-contrast-border-color: #36363638;
-
-    --sn-stylekit-secondary-background-color: #222122;
-    --sn-stylekit-secondary-foreground-color: #dfdfe8;
-    --sn-stylekit-secondary-border-color: #e3e3e3;
-
-    --sn-stylekit-secondary-contrast-background-color: #e3e3e3;
-    --sn-stylekit-secondary-contrast-foreground-color: #2e2e2e;
-    --sn-styleki--secondary-contrast-border-color: #a2a2a2;
-
-    --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
-    --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
-
-    --sn-stylekit-paragraph-text-color: #929196;
-
-    --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
-    --sn-stylekit-input-border-color: #e3e3e3;
-
-    --sn-stylekit-scrollbar-thumb-color: #353436;
-    --sn-stylekit-scrollbar-track-border-color: #e7e7e700;
-
-    --sn-stylekit-general-border-radius: 2px;
-
-    --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
-    --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-
-    --sn-stylekit-grey-1: #72767e;
-    --sn-stylekit-grey-2: #bbbec4;
-    --sn-stylekit-grey-3: #2e2e2e;
-    --sn-stylekit-grey-4: #eeeff1;
-    --sn-stylekit-grey-4-opacity-variant: #bbbec40f;
-    --sn-stylekit-grey-5: #2e2e2e;
-    --sn-stylekit-grey-6: #e5e5e5;
-
-    --sn-stylekit-accessory-tint-color-1: #086dd6;
-    --sn-stylekit-accessory-tint-color-2: #ea6595;
-    --sn-stylekit-accessory-tint-color-3: #ebad00;
-    --sn-stylekit-accessory-tint-color-4: #7049cf;
-    --sn-stylekit-accessory-tint-color-5: #1aa772;
-    --sn-stylekit-accessory-tint-color-6: #f28c52;
-
-    /* Overrides */
-    --editor-title-bar-border-bottom-color: #2e2e2e7d;
-    --navigation-item-selected-background-color: var(--editor-title-bar-border-bottom-color);
-    --item-cell-selected-background-color: #2f2e3061;
-    --items-column-border-left-color: #36363600;
-    --items-column-border-right-color: var(--editor-title-bar-border-bottom-color);
-    --text-selection-background-color: #302e32;
+  --primary-bg-color: #20242A;
+  --secondary-bg-color: #20242B;
+  --editor-bg-color: #272B34;
+  --border-color: #1a1e25;
+  --ui-text-color: #d8d8d8;
+  --sn-stylekit-info-color: #61AFEF;
+  --sn-stylekit-info-contrast-color: #282C34;
+  --sn-stylekit-neutral-color: #ABB2BF;
+  --sn-stylekit-neutral-contrast-color: #282C34;
+  --sn-stylekit-success-color: #98C379;
+  --sn-stylekit-success-contrast-color: #282C34;
+  --sn-stylekit-warning-color: #E5C07B;
+  --sn-stylekit-warning-contrast-color: #282C34;
+  --sn-stylekit-danger-color: #E06C75;
+  --sn-stylekit-danger-contrast-color: #282C34;
+  --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--ui-text-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: #272B34;
+  --sn-stylekit-background-color: #272B34;
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
+  --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: #272B34;
+  --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: #45445a;
+  --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-paragraph-text-color: var(--ui-text-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
 }
