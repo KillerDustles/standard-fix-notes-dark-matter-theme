@@ -5,7 +5,7 @@
 
 ## Installation
 ---
-**Installation Link**: `https://raw.githubusercontent.com/MaxTaraev/standard-notes-dark-matter-theme/main/extension.json`
+**Installation Link**: ``
 
 1. Open preferences menu
 
